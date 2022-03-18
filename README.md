@@ -1,2 +1,2 @@
-# Programiranje-web-aplikacija
+# Programiranje-web-aplikacija 📱
 - Projekti vezani za kolegij Programiranje web aplikacija
