@@ -1,0 +1,166 @@
+body{
+    margin: 0 auto;
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-size: 24px;
+}
+header{
+    margin: 0 auto;
+    background-color: rgb(223, 14, 27);
+    color: white;
+    text-transform: uppercase;
+}
+nav{
+    margin: 0 auto;
+    width: 70%;
+
+}
+#MOPO{
+    margin: 0;
+    height: 60px;
+}
+nav a:link{
+    color: white;
+    text-transform: uppercase;
+}
+nav a:visited{
+    color: white;
+    text-transform: uppercase;
+}
+nav a:hover{
+    color:  rgb(223, 14, 27);
+    text-transform: uppercase;
+    background-color: white;
+}
+nav a:active{
+    color: black;
+}
+a:link{
+    color: black;
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color:  rgb(223, 14, 27);
+    background-color: white;
+}
+a:active{
+    color: black;
+    text-decoration: none;
+}
+footer{
+    background-color: gray;
+    text-align: center;
+    padding: 0.5%;
+    color: white;
+    width: 100%;
+}
+h1{
+    text-align: left;
+    color: gray;
+    border-bottom: 2px solid gray;
+}
+.tijelo{
+    background-color: lightgray;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 0.5%;
+    margin-bottom: 00.5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+}
+article{
+    height: 300px;
+    background-color: white;
+
+}
+article p{
+    padding: 3px;
+    width: auto;
+}
+section[role='main']{
+    background-color: rgb(223, 14, 27);
+}
+section[role='tijelo']{
+    background-color: lightgray;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 0.5%;
+    margin-bottom: 00.5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+}
+body.article{
+    background-color: gray;
+}
+section[role='tijelo'] section[class='naslov'],section[role='tijelo'] section[class='about'],section[role='tijelo'] section[class='sadrzaj']{
+    background-color: white;
+    margin-bottom: 2%;
+    margin-top: 1%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+}
+section[role='tijelo'] section[class='datum']{
+    background-color: white;
+}
+i.fa-regular{
+    font-size: 1.5em;
+}
+body.unos{
+    margin: 0 auto;
+    width: 60%;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: rgb(223, 14, 27);
+}
+section[role='mainUnos']{
+    background-color: white;
+    padding: 2%;
+}
+div.form-item{
+    padding-bottom: 0.5%;
+    border-bottom: 2px solid gray;
+}
+input[type='text'], textarea, input[type='password']{
+    width: 100%;
+}
+body.unos button, input[type="submit"],input[type="reset"]{
+    background-color: rgb(223, 14, 27);
+    color: white;
+}
+.clanci{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.clanci article{
+    height: 285px;
+}
+form.odabir{
+    width: 20%;
+    margin: 0 auto;
+}
+input.error, textarea.error {
+    border: 1px solid rgb(223, 14, 27);
+    font-weight: 300;
+    color: rgb(223, 14, 27);
+}
+label.error {
+    color:rgb(223, 14, 27);
+    font-size: 1rem;
+    display: block;
+    margin-top: 5px;
+}
+.form-item .note {
+    font-size: 1rem;
+    color: rgb(223, 14, 27);
+}
