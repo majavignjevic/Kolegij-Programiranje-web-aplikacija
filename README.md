@@ -1,3 +1,2 @@
 # Programiranje-web-aplikacija 📱
-- Projekti vezani za kolegij Programiranje web aplikacija
-- zadaci za vježbu
+- projekt: izrada funkcionalnog web središta pomoću html, php, css, jQuery i povezanosti na bazu i SQLom
